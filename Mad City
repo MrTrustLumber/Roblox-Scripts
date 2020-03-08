@@ -1,0 +1,73 @@
+loadstring(game:HttpGet(('http://arilis.win/B1316DFA-DC3A-405D-BF19-99588992BC70.lua'),true))()
+local autofarm = false
+
+local XPAutoFarmGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Button = Instance.new("TextButton")
+local Deco = Instance.new("TextLabel")
+
+XPAutoFarmGui.Name = "XPAutoFarmGui"
+XPAutoFarmGui.Parent = game.CoreGui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = XPAutoFarmGui
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+MainFrame.BorderSizePixel = 0
+MainFrame.Draggable = true
+MainFrame.Position = UDim2.new(0.25, 0, 0.25, 0)
+MainFrame.Size = UDim2.new(0.150000006, 0, 0.100000001, 0)
+
+Button.Name = "Button"
+Button.Parent = MainFrame
+Button.BackgroundColor3 = Color3.new(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.25, 0, 0.400000006, 0)
+Button.Size = UDim2.new(0.5, 0, 0.400000006, 0)
+Button.Font = Enum.Font.SourceSans
+Button.FontSize = Enum.FontSize.Size14
+Button.Text = "OFF"
+Button.TextColor3 = Color3.new(1, 0, 0)
+Button.TextScaled = true
+Button.TextSize = 14
+Button.TextWrapped = true
+
+Deco.Name = "Deco"
+Deco.Parent = MainFrame
+Deco.BackgroundColor3 = Color3.new(1, 1, 1)
+Deco.BackgroundTransparency = 0.89999997615814
+Deco.BorderSizePixel = 0
+Deco.Size = UDim2.new(1, 0, 0.300000012, 0)
+Deco.Font = Enum.Font.SourceSansBold
+Deco.FontSize = Enum.FontSize.Size14
+Deco.Text = "XP Autofarm"
+Deco.TextColor3 = Color3.new(1, 1, 1)
+Deco.TextScaled = true
+Deco.TextSize = 14
+Deco.TextWrapped = true
+
+Button.MouseButton1Down:connect(function()
+if autofarm == false then
+autofarm = true
+Button.TextColor3 = Color3.new(0, 1, 0)
+Button.Text = "ON"
+else
+autofarm = false
+Button.TextColor3 = Color3.new(1, 0, 0)
+Button.Text = "OFF"
+end
+end)
+
+spawn(function()
+while true do
+wait() 
+if autofarm == true then
+game.ReplicatedStorage.RemoteFunction:InvokeServer("SetTeam", "Hero")
+game.ReplicatedStorage.RemoteFunction:InvokeServer("SetTeam", "Police")
+game.ReplicatedStorage.RemoteFunction:InvokeServer("SetTeam", "Prisoners")
+wait(1.2)
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-750, 55, -3340))
+wait(1)
+end
+end
+end)
