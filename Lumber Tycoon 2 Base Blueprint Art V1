@@ -1,0 +1,862 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local B1 = Instance.new("TextButton")
+local B3 = Instance.new("TextButton")
+local B2 = Instance.new("TextButton")
+local B4 = Instance.new("TextButton")
+local B6 = Instance.new("TextButton")
+local B5 = Instance.new("TextButton")
+local B7 = Instance.new("TextButton")
+local B9 = Instance.new("TextButton")
+local B8 = Instance.new("TextButton")
+local B12 = Instance.new("TextButton")
+local B10 = Instance.new("TextButton")
+local B11 = Instance.new("TextButton")
+local B16 = Instance.new("TextButton")
+local B15 = Instance.new("TextButton")
+local B14 = Instance.new("TextButton")
+local B17 = Instance.new("TextButton")
+local B13 = Instance.new("TextButton")
+local B21 = Instance.new("TextButton")
+local B20 = Instance.new("TextButton")
+local B19 = Instance.new("TextButton")
+local B22 = Instance.new("TextButton")
+local B18 = Instance.new("TextButton")
+local B23 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local NPS = Instance.new("TextButton")
+local PlrF = Instance.new("Frame")
+local P1 = Instance.new("TextButton")
+local P2 = Instance.new("TextButton")
+local P3 = Instance.new("TextButton")
+local P6 = Instance.new("TextButton")
+local P5 = Instance.new("TextButton")
+local P4 = Instance.new("TextButton")
+local SP = Instance.new("TextButton")
+local WBP = Instance.new("TextButton")
+local Image = Instance.new("ImageLabel")
+local Open = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+ 
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.306653798, 0, 0.101391658, 0)
+ImageButton.Size = UDim2.new(0, 400, 0, 400)
+ImageButton.Image = "http://www.roblox.com/asset/?id=4850551065"
+
+TextLabel.Parent = ImageButton
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 0, 0.817499995, 0)
+TextLabel.Size = UDim2.new(0, 400, 0, 73)
+TextLabel.Font = Enum.Font.SciFi
+if game.Players.LocalPlayer.Name == "jjkyt1234" then
+TextLabel.Text = "Welcome ".."JJK (;"
+else
+TextLabel.Text = "Welcome "..game.Players.LocalPlayer.Name
+end
+TextLabel.TextColor3 = Color3.new(0, 1, 0.933333)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.new(0.654902, 0.0901961, 0.839216)
+Main.BorderColor3 = Color3.new(1, 1, 1)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.319587618, 0, 0.29821074, 0)
+Main.Size = UDim2.new(0, 425, 0, 174)
+Main.Active = true
+Main.Draggable = true
+Main.Visible = false
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.710588217, 0, 0, 0)
+ScrollingFrame.Size = UDim2.new(0, 123, 0, 174)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 522)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4, 0)
+ScrollingFrame.ScrollBarThickness = 7
+
+B1.Name = "B1"
+B1.Parent = ScrollingFrame
+B1.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B1.BorderSizePixel = 0
+B1.Position = UDim2.new(0, 0, -0.00143116899, 0)
+B1.Size = UDim2.new(0, 116, 0, 30)
+B1.Font = Enum.Font.SourceSans
+B1.Text = "Base 1"
+B1.TextColor3 = Color3.new(0, 0, 0)
+B1.TextScaled = true
+B1.TextSize = 14
+B1.TextWrapped = true
+
+B3.Name = "B3"
+B3.Parent = ScrollingFrame
+B3.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B3.BorderSizePixel = 0
+B3.Position = UDim2.new(0, 0, 0.084775731, 0)
+B3.Size = UDim2.new(0, 116, 0, 30)
+B3.Font = Enum.Font.SourceSans
+B3.Text = "Base 3"
+B3.TextColor3 = Color3.new(0, 0, 0)
+B3.TextScaled = true
+B3.TextSize = 14
+B3.TextWrapped = true
+
+B2.Name = "B2"
+B2.Parent = ScrollingFrame
+B2.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B2.BorderSizePixel = 0
+B2.Position = UDim2.new(0, 0, 0.0416722819, 0)
+B2.Size = UDim2.new(0, 116, 0, 30)
+B2.Font = Enum.Font.SourceSans
+B2.Text = "Base 2"
+B2.TextColor3 = Color3.new(0, 0, 0)
+B2.TextScaled = true
+B2.TextSize = 14
+B2.TextWrapped = true
+
+B4.Name = "B4"
+B4.Parent = ScrollingFrame
+B4.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B4.BorderSizePixel = 0
+B4.Position = UDim2.new(0, 0, 0.127879173, 0)
+B4.Size = UDim2.new(0, 116, 0, 30)
+B4.Font = Enum.Font.SourceSans
+B4.Text = "Base 4"
+B4.TextColor3 = Color3.new(0, 0, 0)
+B4.TextScaled = true
+B4.TextSize = 14
+B4.TextWrapped = true
+
+B6.Name = "B6"
+B6.Parent = ScrollingFrame
+B6.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B6.BorderSizePixel = 0
+B6.Position = UDim2.new(0, 0, 0.214086071, 0)
+B6.Size = UDim2.new(0, 116, 0, 30)
+B6.Font = Enum.Font.SourceSans
+B6.Text = "Base 6"
+B6.TextColor3 = Color3.new(0, 0, 0)
+B6.TextScaled = true
+B6.TextSize = 14
+B6.TextWrapped = true
+
+B5.Name = "B5"
+B5.Parent = ScrollingFrame
+B5.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B5.BorderSizePixel = 0
+B5.Position = UDim2.new(0, 0, 0.170982629, 0)
+B5.Size = UDim2.new(0, 116, 0, 30)
+B5.Font = Enum.Font.SourceSans
+B5.Text = "Base 5"
+B5.TextColor3 = Color3.new(0, 0, 0)
+B5.TextScaled = true
+B5.TextSize = 14
+B5.TextWrapped = true
+
+B7.Name = "B7"
+B7.Parent = ScrollingFrame
+B7.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B7.BorderSizePixel = 0
+B7.Position = UDim2.new(0, 0, 0.257189512, 0)
+B7.Size = UDim2.new(0, 116, 0, 30)
+B7.Font = Enum.Font.SourceSans
+B7.Text = "Base 7"
+B7.TextColor3 = Color3.new(0, 0, 0)
+B7.TextScaled = true
+B7.TextSize = 14
+B7.TextWrapped = true
+
+B9.Name = "B9"
+B9.Parent = ScrollingFrame
+B9.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B9.BorderSizePixel = 0
+B9.Position = UDim2.new(0, 0, 0.343396395, 0)
+B9.Size = UDim2.new(0, 116, 0, 30)
+B9.Font = Enum.Font.SourceSans
+B9.Text = "Base 9"
+B9.TextColor3 = Color3.new(0, 0, 0)
+B9.TextScaled = true
+B9.TextSize = 14
+B9.TextWrapped = true
+
+B8.Name = "B8"
+B8.Parent = ScrollingFrame
+B8.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B8.BorderSizePixel = 0
+B8.Position = UDim2.new(0, 0, 0.300292969, 0)
+B8.Size = UDim2.new(0, 116, 0, 30)
+B8.Font = Enum.Font.SourceSans
+B8.Text = "Base 8"
+B8.TextColor3 = Color3.new(0, 0, 0)
+B8.TextScaled = true
+B8.TextSize = 14
+B8.TextWrapped = true
+
+B12.Name = "B12"
+B12.Parent = ScrollingFrame
+B12.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B12.BorderSizePixel = 0
+B12.Position = UDim2.new(0, 0, 0.472706765, 0)
+B12.Size = UDim2.new(0, 116, 0, 30)
+B12.Font = Enum.Font.SourceSans
+B12.Text = "Base 12"
+B12.TextColor3 = Color3.new(0, 0, 0)
+B12.TextScaled = true
+B12.TextSize = 14
+B12.TextWrapped = true
+
+B10.Name = "B10"
+B10.Parent = ScrollingFrame
+B10.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B10.BorderSizePixel = 0
+B10.Position = UDim2.new(0, 0, 0.386499852, 0)
+B10.Size = UDim2.new(0, 116, 0, 30)
+B10.Font = Enum.Font.SourceSans
+B10.Text = "Base 10"
+B10.TextColor3 = Color3.new(0, 0, 0)
+B10.TextScaled = true
+B10.TextSize = 14
+B10.TextWrapped = true
+
+B11.Name = "B11"
+B11.Parent = ScrollingFrame
+B11.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B11.BorderSizePixel = 0
+B11.Position = UDim2.new(0, 0, 0.429603308, 0)
+B11.Size = UDim2.new(0, 116, 0, 30)
+B11.Font = Enum.Font.SourceSans
+B11.Text = "Base 11"
+B11.TextColor3 = Color3.new(0, 0, 0)
+B11.TextScaled = true
+B11.TextSize = 14
+B11.TextWrapped = true
+
+B16.Name = "B16"
+B16.Parent = ScrollingFrame
+B16.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B16.BorderSizePixel = 0
+B16.Position = UDim2.new(0, 0, 0.645120561, 0)
+B16.Size = UDim2.new(0, 116, 0, 30)
+B16.Font = Enum.Font.SourceSans
+B16.Text = "Base 16"
+B16.TextColor3 = Color3.new(0, 0, 0)
+B16.TextScaled = true
+B16.TextSize = 14
+B16.TextWrapped = true
+
+B15.Name = "B15"
+B15.Parent = ScrollingFrame
+B15.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B15.BorderSizePixel = 0
+B15.Position = UDim2.new(0, 0, 0.602017105, 0)
+B15.Size = UDim2.new(0, 116, 0, 30)
+B15.Font = Enum.Font.SourceSans
+B15.Text = "Base 15"
+B15.TextColor3 = Color3.new(0, 0, 0)
+B15.TextScaled = true
+B15.TextSize = 14
+B15.TextWrapped = true
+
+B14.Name = "B14"
+B14.Parent = ScrollingFrame
+B14.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B14.BorderSizePixel = 0
+B14.Position = UDim2.new(0, 0, 0.558913648, 0)
+B14.Size = UDim2.new(0, 116, 0, 30)
+B14.Font = Enum.Font.SourceSans
+B14.Text = "Base 14"
+B14.TextColor3 = Color3.new(0, 0, 0)
+B14.TextScaled = true
+B14.TextSize = 14
+B14.TextWrapped = true
+
+B17.Name = "B17"
+B17.Parent = ScrollingFrame
+B17.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B17.BorderSizePixel = 0
+B17.Position = UDim2.new(0, 0, 0.688224018, 0)
+B17.Size = UDim2.new(0, 116, 0, 30)
+B17.Font = Enum.Font.SourceSans
+B17.Text = "Base 17"
+B17.TextColor3 = Color3.new(0, 0, 0)
+B17.TextScaled = true
+B17.TextSize = 14
+B17.TextWrapped = true
+
+B13.Name = "B13"
+B13.Parent = ScrollingFrame
+B13.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B13.BorderSizePixel = 0
+B13.Position = UDim2.new(0, 0, 0.515810192, 0)
+B13.Size = UDim2.new(0, 116, 0, 30)
+B13.Font = Enum.Font.SourceSans
+B13.Text = "Base 13"
+B13.TextColor3 = Color3.new(0, 0, 0)
+B13.TextScaled = true
+B13.TextSize = 14
+B13.TextWrapped = true
+
+B21.Name = "B21"
+B21.Parent = ScrollingFrame
+B21.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B21.BorderSizePixel = 0
+B21.Position = UDim2.new(0, 0, 0.860637844, 0)
+B21.Size = UDim2.new(0, 116, 0, 30)
+B21.Font = Enum.Font.SourceSans
+B21.Text = "Base 21"
+B21.TextColor3 = Color3.new(0, 0, 0)
+B21.TextScaled = true
+B21.TextSize = 14
+B21.TextWrapped = true
+
+B20.Name = "B20"
+B20.Parent = ScrollingFrame
+B20.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B20.BorderSizePixel = 0
+B20.Position = UDim2.new(0, 0, 0.817534387, 0)
+B20.Size = UDim2.new(0, 116, 0, 30)
+B20.Font = Enum.Font.SourceSans
+B20.Text = "Base 20"
+B20.TextColor3 = Color3.new(0, 0, 0)
+B20.TextScaled = true
+B20.TextSize = 14
+B20.TextWrapped = true
+
+B19.Name = "B19"
+B19.Parent = ScrollingFrame
+B19.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B19.BorderSizePixel = 0
+B19.Position = UDim2.new(0, 0, 0.774430931, 0)
+B19.Size = UDim2.new(0, 116, 0, 30)
+B19.Font = Enum.Font.SourceSans
+B19.Text = "Base 19"
+B19.TextColor3 = Color3.new(0, 0, 0)
+B19.TextScaled = true
+B19.TextSize = 14
+B19.TextWrapped = true
+
+B22.Name = "B22"
+B22.Parent = ScrollingFrame
+B22.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B22.BorderSizePixel = 0
+B22.Position = UDim2.new(0, 0, 0.9037413, 0)
+B22.Size = UDim2.new(0, 116, 0, 30)
+B22.Font = Enum.Font.SourceSans
+B22.Text = "Base 22"
+B22.TextColor3 = Color3.new(0, 0, 0)
+B22.TextScaled = true
+B22.TextSize = 14
+B22.TextWrapped = true
+
+B18.Name = "B18"
+B18.Parent = ScrollingFrame
+B18.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B18.BorderSizePixel = 0
+B18.Position = UDim2.new(0, 0, 0.731327474, 0)
+B18.Size = UDim2.new(0, 116, 0, 30)
+B18.Font = Enum.Font.SourceSans
+B18.Text = "Base 18"
+B18.TextColor3 = Color3.new(0, 0, 0)
+B18.TextScaled = true
+B18.TextSize = 14
+B18.TextWrapped = true
+
+B23.Name = "B23"
+B23.Parent = ScrollingFrame
+B23.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+B23.BorderSizePixel = 0
+B23.Position = UDim2.new(0, 0, 0.946844757, 0)
+B23.Size = UDim2.new(0, 116, 0, 30)
+B23.Font = Enum.Font.SourceSans
+B23.Text = "Credits"
+B23.TextColor3 = Color3.new(0, 0, 0)
+B23.TextScaled = true
+B23.TextSize = 14
+B23.TextWrapped = true
+B23.Visible = false
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.new(0.776471, 0.105882, 1)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 302, 0, 23)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Close"
+TextButton.TextColor3 = Color3.new(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+
+NPS.Name = "NPS"
+NPS.Parent = Main
+NPS.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+NPS.BorderSizePixel = 0
+NPS.Position = UDim2.new(0, 0, 0.810000002, 0)
+NPS.Size = UDim2.new(0, 165, 0, 33)
+NPS.Font = Enum.Font.SourceSansSemibold
+NPS.Text = game.Players.LocalPlayer.Name
+NPS.TextColor3 = Color3.new(0, 0, 0)
+NPS.TextScaled = true
+NPS.TextSize = 14
+NPS.TextWrapped = true
+
+PlrF.Name = "PlrF"
+PlrF.Parent = NPS
+PlrF.BackgroundColor3 = Color3.new(0.729412, 0.764706, 0.8)
+PlrF.BackgroundTransparency = 1
+PlrF.BorderSizePixel = 0
+PlrF.Position = UDim2.new(0, 0, 1.00674713, 0)
+PlrF.Size = UDim2.new(0, 165, 0, 147)
+PlrF.Visible = false
+
+P1.Name = "P1"
+P1.Parent = PlrF
+P1.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+P1.BorderSizePixel = 0
+P1.Position = UDim2.new(0, 0, -0.00578359514, 0)
+P1.Size = UDim2.new(0, 165, 0, 25)
+P1.Font = Enum.Font.SourceSansSemibold
+P1.Text = "No Player"
+P1.TextColor3 = Color3.new(0, 0, 0)
+P1.TextScaled = true
+P1.TextSize = 14
+P1.TextWrapped = true
+
+P2.Name = "P2"
+P2.Parent = PlrF
+P2.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+P2.BorderSizePixel = 0
+P2.Position = UDim2.new(0, 0, 0.161759987, 0)
+P2.Size = UDim2.new(0, 165, 0, 25)
+P2.Font = Enum.Font.SourceSansSemibold
+P2.Text = "No Player"
+P2.TextColor3 = Color3.new(0, 0, 0)
+P2.TextScaled = true
+P2.TextSize = 14
+P2.TextWrapped = true
+
+P3.Name = "P3"
+P3.Parent = PlrF
+P3.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+P3.BorderSizePixel = 0
+P3.Position = UDim2.new(0, 0, 0.329303563, 0)
+P3.Size = UDim2.new(0, 165, 0, 25)
+P3.Font = Enum.Font.SourceSansSemibold
+P3.Text = "No Player"
+P3.TextColor3 = Color3.new(0, 0, 0)
+P3.TextScaled = true
+P3.TextSize = 14
+P3.TextWrapped = true
+
+P6.Name = "P6"
+P6.Parent = PlrF
+P6.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+P6.BorderSizePixel = 0
+P6.Position = UDim2.new(0, 0, 0.831934273, 0)
+P6.Size = UDim2.new(0, 165, 0, 25)
+P6.Font = Enum.Font.SourceSansSemibold
+P6.Text = "No Player"
+P6.TextColor3 = Color3.new(0, 0, 0)
+P6.TextScaled = true
+P6.TextSize = 14
+P6.TextWrapped = true
+
+P5.Name = "P5"
+P5.Parent = PlrF
+P5.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+P5.BorderSizePixel = 0
+P5.Position = UDim2.new(0, 0, 0.664390743, 0)
+P5.Size = UDim2.new(0, 165, 0, 25)
+P5.Font = Enum.Font.SourceSansSemibold
+P5.Text = "No Player"
+P5.TextColor3 = Color3.new(0, 0, 0)
+P5.TextScaled = true
+P5.TextSize = 14
+P5.TextWrapped = true
+
+P4.Name = "P4"
+P4.Parent = PlrF
+P4.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+P4.BorderSizePixel = 0
+P4.Position = UDim2.new(0, 0, 0.496847123, 0)
+P4.Size = UDim2.new(0, 165, 0, 25)
+P4.Font = Enum.Font.SourceSansSemibold
+P4.Text = "No Player"
+P4.TextColor3 = Color3.new(0, 0, 0)
+P4.TextScaled = true
+P4.TextSize = 14
+P4.TextWrapped = true
+
+SP.Name = "SP"
+SP.Parent = Main
+SP.BackgroundColor3 = Color3.new(0, 0.866667, 1)
+SP.BorderSizePixel = 0
+SP.Position = UDim2.new(0.439999998, 0, 0.615296245, 0)
+SP.Size = UDim2.new(0, 97, 0, 53)
+SP.Font = Enum.Font.SourceSans
+SP.Text = "Spawn Base"
+SP.TextColor3 = Color3.new(0, 0, 0)
+SP.TextScaled = true
+SP.TextSize = 14
+SP.TextWrapped = true
+
+WBP.Name = "WBP"
+WBP.Parent = Main
+WBP.BackgroundColor3 = Color3.new(0, 0.866667, 1)
+WBP.BorderSizePixel = 0
+WBP.Position = UDim2.new(0.439253926, 0, 0.235654622, 0)
+WBP.Size = UDim2.new(0, 97, 0, 48)
+WBP.AutoButtonColor = false
+WBP.Font = Enum.Font.SourceSans
+WBP.Text = "Wipe Blueprints"
+WBP.TextColor3 = Color3.new(0, 0, 0)
+WBP.TextScaled = true
+WBP.TextSize = 14
+WBP.TextWrapped = true
+
+Image.Name = "Image"
+Image.Parent = Main
+Image.BackgroundColor3 = Color3.new(0.654902, 0.0901961, 0.839216)
+Image.BorderSizePixel = 0
+Image.Position = UDim2.new(0.0209999997, 0, 0.189999998, 0)
+Image.Size = UDim2.new(0, 168, 0, 100)
+Image.Image = "http://www.roblox.com/asset/?id=4840937351"
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.new(0.709804, 0.0235294, 1)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0, 0, 0.859755456, 0)
+Open.Size = UDim2.new(0, 175, 0, 40)
+Open.Visible = false
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14
+Open.TextWrapped = true
+
+function Sound11()
+local s = Instance.new("Sound")
+ 
+s.Name = "Sound"
+s.SoundId = "rbxassetid://408524543"
+s.Volume = 2
+s.archivable = false
+s.Parent = game.Workspace
+s:play()
+end
+function Sound22()
+local Song1 = Instance.new("Sound")
+ 
+Song1.Name = "Song1"
+Song1.SoundId = "rbxassetid://452267918"
+Song1.Volume = 2
+Song1.archivable = false
+Song1.Parent = game.Workspace
+Song1:play()
+end
+
+local Rep = Instance.new("Part", game.ReplicatedStorage)
+Rep.Anchored = true
+Rep.Name = game.Players.LocalPlayer.Name
+
+local RemoteP
+
+for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
+if v.ClassName == "Part" then
+RemoteP = v
+end
+end
+
+local buttons = { P1, P2, P3, P4, P5, P6 }
+
+for i,v in pairs(game.Players:GetChildren()) do
+    buttons[i].Text = v.Name
+end
+
+game.Players.PlayerAdded:connect(function()
+    for i,v in pairs(game.Players:GetChildren()) do
+        buttons[i].Text = v.Name
+    end
+end)
+
+game.Players.PlayerRemoving:connect(function()
+    for i,v in pairs(game.Players:GetChildren()) do
+        buttons[i].Text = "No Player"
+        buttons[i].Text = v.Name
+    end
+end)
+
+Open.MouseButton1Down:connect(function()
+Sound11()
+Main.Visible = true
+Open.Visible = false
+end)
+
+TextButton.MouseButton1Down:connect(function()
+Sound11()
+Main.Visible = false
+Open.Visible = true
+end)
+
+NPS.MouseButton1Down:connect(function()
+Sound22()
+PlrF.Visible = true
+end)
+
+P1.MouseButton1Down:connect(function()
+Sound11()
+PlrF.Visible = false
+NPS.Text = P1.Text
+RemoteP.Name = P1.Text
+end)
+
+P2.MouseButton1Down:connect(function()
+Sound11()
+PlrF.Visible = false
+NPS.Text = P2.Text
+RemoteP.Name = P2.Text
+end)
+
+P3.MouseButton1Down:connect(function()
+Sound11()
+PlrF.Visible = false
+NPS.Text = P3.Text
+RemoteP.Name = P3.Text
+end)
+
+P4.MouseButton1Down:connect(function()
+Sound11()
+PlrF.Visible = false
+NPS.Text = P4.Text
+RemoteP.Name = P4.Text
+end)
+
+P5.MouseButton1Down:connect(function()
+Sound11()
+PlrF.Visible = false
+NPS.Text = P5.Text
+RemoteP.Name = P5.Text
+end)
+
+P6.MouseButton1Down:connect(function()
+Sound11()
+PlrF.Visible = false
+NPS.Text = P6.Text
+RemoteP.Name = P6.Text
+end)
+
+ImageButton.MouseButton1Down:connect(function()
+Sound22()
+ImageButton.Visible = false
+Main.Visible = true
+end)
+
+B1.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4840937351"
+end)
+
+B2.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4840938257"
+end)
+
+B3.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4841616771"
+end)
+
+B4.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4841886698"
+end)
+
+B5.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4842012758"
+end)
+
+B6.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4842309012"
+end)
+
+B7.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4842359224"
+end)
+
+B8.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4842395263"
+end)
+
+B9.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4842513241"
+end)
+
+B10.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4845590091"
+end)
+
+B11.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4845962826"
+end)
+
+B12.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4846030416"
+end)
+
+B13.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848107553"
+end)
+
+B14.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848265654"
+end)
+
+B15.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848289295"
+end)
+
+B16.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848480260"
+end)
+
+B17.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848626458"
+end)
+
+B18.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848680980"
+end)
+
+B19.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4848821313"
+end)
+
+B20.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4850396798"
+end)
+
+B21.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4850446653"
+end)
+
+B22.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4850477507"
+end)
+
+B23.MouseButton1Down:connect(function()
+Sound11()
+Image.Image = "http://www.roblox.com/asset/?id=4850486105"
+end)
+
+local Bases = { B1, B2, B3, B4, B5,B6 ,B7, B8, B9, B10, B11, B12, B13, B14, B15, B16, B17, B18, B19, B20, B21, B22, B23 }
+
+for i,v in pairs(Bases) do
+v.MouseEnter:connect(function() 
+v.TextColor3 = Color3.new(0, 0.866667, 1)
+end)
+v.MouseLeave:Connect(function() 
+v.TextColor3 = Color3.new(0, 0, 0)
+end)
+end
+
+SP.MouseButton1Down:connect(function()
+Sound22()
+if Image.Image == "http://www.roblox.com/asset/?id=4840937351" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/yVdqaQz5'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4840938257" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/DZjGcTQh'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4841616771" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/6p6mLgrn'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4841886698" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/1X9AcLeu'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4842012758" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/mY0n3YDZ'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4842309012" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/FaTrYeMZ'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4842359224" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/0iYTTRYW'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4842395263" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/mXv6RTUs'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4842513241" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/3t5PQWC9'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4845590091" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/j8WLTYkj'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4845962826" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/AF2uzUgZ'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4846030416" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/Mw1uuwsV'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848107553" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/iEYvCXM0'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848265654" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/8JXaA2UK'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848289295" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/f7uwjMK9'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848480260" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/GxjgggM3'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848626458" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/AVzH7jGa'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848680980" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/4XgRZyPe'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4848821313" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/VTQg4kLM'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4850396798" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/wh0Hfxkv'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4850446653" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/08SsWi6W'),true))()
+elseif Image.Image == "http://www.roblox.com/asset/?id=4850477507" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/umaxcCHw'),true))()
+end
+end)
+WBP.MouseButton1Down:connect(function()
+Sound22()
+local PlayerName = NPS.Text
+local ItsCFrame
+local Remote = game.ReplicatedStorage.PlaceStructure.ClientPlacedStructure
+for i,v in pairs(game.Workspace.PlayerModels:GetChildren()) do
+if v:FindFirstChild("Owner") and v.Owner.Value == game.Players[PlayerName] then
+if v:FindFirstChild("BuildDependentWood") then
+if v.Name == "Model" then
+game:GetService("ReplicatedStorage").PlaceStructure.ClientPlacedStructure:FireServer(v.ItemName.Value, v.MainCFrame.Value, game:GetService("Players").LocalPlayer, "", v, false)
+else
+if v:FindFirstChild("MainCFrame") then
+ItsCFrame = v.MainCFrame.Value
+else
+ItsCFrame = v.PrimaryPart.CFrame
+end
+if v ~= nil then
+Remote:FireServer(v.Name, ItsCFrame, game.Players.LocalPlayer, "", v, false)
+end
+end
+end
+end
+end
+end)
