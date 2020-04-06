@@ -67,7 +67,7 @@ TextLabel.TextWrapped = true
 
 Main.Name = "Main"
 Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.new(0.654902, 0.0901961, 0.839216)
+Main.BackgroundColor3 = Color3.new(0, 255, 0)
 Main.BorderColor3 = Color3.new(1, 1, 1)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.319587618, 0, 0.29821074, 0)
@@ -77,7 +77,7 @@ Main.Draggable = true
 Main.Visible = false
 
 ScrollingFrame.Parent = Main
-ScrollingFrame.BackgroundColor3 = Color3.new(0.780392, 0.109804, 1)
+ScrollingFrame.BackgroundColor3 = Color3.new(0, 255, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.710588217, 0, 0, 0)
 ScrollingFrame.Size = UDim2.new(0, 123, 0, 174)
@@ -398,7 +398,7 @@ TextButton.TextWrapped = true
 
 NPS.Name = "NPS"
 NPS.Parent = Main
-NPS.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+NPS.BackgroundColor3 = Color3.new(0, 255, 0)
 NPS.BorderSizePixel = 0
 NPS.Position = UDim2.new(0, 0, 0.810000002, 0)
 NPS.Size = UDim2.new(0, 165, 0, 33)
@@ -533,7 +533,7 @@ Image.Image = "http://www.roblox.com/asset/?id=4840937351"
 
 Open.Name = "Open"
 Open.Parent = ScreenGui
-Open.BackgroundColor3 = Color3.new(0.709804, 0.0235294, 1)
+Open.BackgroundColor3 = Color3.new(0, 255, 0)
 Open.BorderSizePixel = 0
 Open.Position = UDim2.new(0, 0, 0.859755456, 0)
 Open.Size = UDim2.new(0, 175, 0, 40)
